@@ -1,0 +1,39 @@
+.v-end {
+    align-items: flex-end !important;
+}
+
+.v-start {
+    align-items: flex-start !important;
+}
+
+.v-center {
+    align-items: center !important;
+}
+
+.h-end {
+    justify-content: flex-end !important;
+}
+
+.h-start {
+    justify-content: flex-start !important;
+}
+
+.h-center {
+    justify-content: center !important;
+}
+
+.h-between {
+    justify-content: space-between !important;
+}
+
+.h-around {
+    justify-content: space-around !important;
+}
+
+.h-evenly {
+    justify-content: space-evenly !important;
+}
+
+.text-center {
+    text-align: center;
+}
