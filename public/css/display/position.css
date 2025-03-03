@@ -1,0 +1,15 @@
+.position-fixed {
+    position: fixed;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.display-flex {
+    display: flex;
+}
