@@ -1,0 +1,141 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1399.98px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: .5em;
+}
+
+.col-12 {
+    display: flex;
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 1399.98px;
+}
+
+.col-11 {
+    display: flex;
+    flex: 0 0 auto;
+    width: 91.3%;
+    max-width: 1283.315px;
+}
+
+.col-10 {
+    display: flex;
+    flex: 0 0 auto;
+    width: 83%;
+    max-width: 1166.65px;
+}
+
+.col-9 {
+    display: flex;
+    flex: 0 0 auto;
+    width: 74.7%;
+    max-width: 1049.985px;
+}
+
+.col-8 {
+    display: flex;
+    flex: 0 0 auto;
+    width: 66.4%;
+    max-width: 933.32px;
+}
+
+.col-7 {
+    display: flex;
+    flex: 0 0 auto;
+    width: 58.1%;
+    max-width: 816.655px;
+}
+
+.col-6 {
+    display: flex;
+    flex: 0 0 auto;
+    width: 49.8%;
+    max-width: 699.99px;
+}
+
+.col-5 {
+    display: flex;
+    flex: 0 0 auto;
+    width: 41.5%;
+    max-width: 583.325px;
+}
+
+.col-4 {
+    display: flex;
+    flex: 0 0 auto;
+    width: 33.2%;
+    max-width: 466.66px;
+}
+
+.col-3 {
+    display: flex;
+    flex: 0 0 auto;
+    width: 24.9%;
+    max-width: 349.995px;
+}
+
+.col-2 {
+    display: flex;
+    flex: 0 0 auto;
+    width: 16.6%;
+    max-width: 233.33px;
+}
+
+.col-1 {
+    display: flex;
+    flex: 0 0 auto;
+    width: 8.3%;
+    max-width: 116.665px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+/* smartphone */
+@media screen and (max-width: 767px) {
+
+    /* on smarptphone, the content is wrapped into cells */
+    .col-12,
+    .col-11,
+    .col-10,
+    .col-9,
+    .col-8,
+    .col-7,
+    .col-6,
+    .col-5,
+    .col-4,
+    .col-3,
+    .col-2,
+    .col {
+        flex-wrap: wrap;
+    }
+
+    /* on smartphone, the cells cover entire width */
+    .col-12,
+    .col-11,
+    .col-10,
+    .col-9,
+    .col-8,
+    .col-7,
+    .col-6,
+    .col-5,
+    .col-4,
+    .col-3,
+    .col-2,
+    .col {
+        width: 100%;
+        min-width: 100%;
+    }
+}
