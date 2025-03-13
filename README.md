@@ -1,4 +1,4 @@
-# Chat APP
+# Chat
 
 <br><img align="left" src="https://skillicons.dev/icons?i=vscode,nodejs,html,css,javascript,github,git" height="37" alt="Tecnologias"><br><br>
 
