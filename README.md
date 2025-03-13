@@ -1,10 +1,12 @@
-# CHat APP
+# Chat APP
 
 <br><img align="left" src="https://skillicons.dev/icons?i=vscode,nodejs,html,css,javascript,github,git" height="37" alt="Tecnologias"><br><br>
 
 ## Descripción
 
 Este proyecto consiste en un chat en tiempo real desarrollado con Node.js y WebSockets. Cuenta con una interfaz intuitiva y moderna. Permite la comunicación entre usuarios con mensajes instantáneos y ofrece un diseño agradable.
+
+![Interfaz de la aplicación](public/evidence/evidence.JPG)
 
 ## Características
 
